@@ -60,16 +60,17 @@ Example response:
 },
 ]
 
-Deployment
+### Deployment
 --------------
 
 This project is deployed on Vercel and can be accessed at the following URL:
 Copyhttps://wrestler-data-api.vercel.app/api/wrestlers
 
-Contributing
+### Contributing
 ----------
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
-License
+
+### License
 This project is licensed under the MIT License.
 Copy
 This README covers the key aspects of the wrestler data API project, including:

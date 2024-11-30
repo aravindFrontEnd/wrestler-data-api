@@ -31,7 +31,7 @@ Copy
 ### Deployment
 --------------
 This project is deployed on Vercel and can be accessed at the following URL:
-Copyhttps://wrestler-data-api.vercel.app/api/wrestlers
+## https://wrestler-data-api.vercel.app/api/wrestlers
 ### Contributing
 ----------
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.

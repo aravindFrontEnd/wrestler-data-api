@@ -58,12 +58,16 @@ Example response:
  "weight": "275",
  "image": "/rock.webp"
 },
-// ... more wrestler data
 ]
+
 Deployment
+--------------
+
 This project is deployed on Vercel and can be accessed at the following URL:
 Copyhttps://wrestler-data-api.vercel.app/api/wrestlers
+
 Contributing
+----------
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 License
 This project is licensed under the MIT License.

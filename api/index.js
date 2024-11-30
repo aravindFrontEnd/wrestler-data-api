@@ -1,10 +1,9 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const port = process.env.PORT || 3000;
 
 // Serve the wrestler data
-const wrestlerData = require('./wrestlerData');
+const wrestlerData = require('../wrestlerData');
 
 // Serve the wrestler data
 app.get('/api/wrestlers', (req, res) => {
@@ -12,8 +11,7 @@ app.get('/api/wrestlers', (req, res) => {
 });
 
 // Serve the static assets (images)
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '../public')));
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-});
+// Export the Express app
+module.exports = app;
